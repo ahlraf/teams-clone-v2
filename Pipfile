@@ -9,6 +9,7 @@ msal = "*"
 requests = "*"
 pyyaml = "*"
 python-dateutil = "*"
+gunicorn = "*"
 
 [dev-packages]
 
