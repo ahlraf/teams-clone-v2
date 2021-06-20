@@ -1,0 +1,10 @@
+{% extends "teams/layout.html" %}
+{% block content %}
+<h1>Video call and text</h1>
+  {% if user.is_authenticated %}
+    <h4>Welcome {{ user.name }}!</h4>
+  {% else %}
+    <a href="{% url 'signin' %}" class="btn btn-primary btn-large">Click here to sign in</a>
+  {% endif %}
+</div>
+{% endblock %}
