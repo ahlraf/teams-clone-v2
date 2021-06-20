@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include 
 
 from . import views
 
@@ -12,4 +12,5 @@ urlpatterns = [
   path('calendar', views.calendar, name='calendar'),
   path('calendar/new', views.newevent, name='newevent'),
   path('videoandtext', views.videotext, name='videoandtext'), 
+  path('videotext', include('videotext.urls'), name='videotext'),
 ]

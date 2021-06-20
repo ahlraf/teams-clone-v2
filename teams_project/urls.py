@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from teams import views
+from teams import views 
 
 urlpatterns = [
     path('', include('teams.urls')),
+    path('videotext/', include('videotext.urls')),
     path('admin/', admin.site.urls),
 ]
