@@ -36,7 +36,7 @@ def get_sign_in_flow():
 
   return auth_app.initiate_auth_code_flow(
     settings['scopes'],
-    redirect_uri=settings['redirect'])
+    redirect_uri=settings['redirect'], prompt='login')
 
 # Method to exchange auth code for access token
 def get_token_from_code(request):
