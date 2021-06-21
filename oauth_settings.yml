@@ -1,6 +1,6 @@
 app_id: "6868ff72-87a6-4aa2-8165-29edd896aae6"
 app_secret: "4.pbyt-Ez94cmHi_FoJwI0.nk~h3SbWJ5Y"
-redirect: "http://localhost:8000/callback"
+redirect: "https://ms-2021-teams.herokuapp.com/callback"
 scopes:
   - user.read
   - mailboxsettings.read
