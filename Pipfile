@@ -10,9 +10,7 @@ requests = "*"
 pyyaml = "*"
 python-dateutil = "*"
 gunicorn = "*"
-psycopg2 = "*"
 whitenoise = "*"
-dj-database-url = "*"
 
 [dev-packages]
 
